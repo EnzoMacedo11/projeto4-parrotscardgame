@@ -1,0 +1,70 @@
+body{
+    background-color: #EEF9BF;
+}
+
+.MenuTop{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: -0.004em;
+    width: 100%;
+    margin-top: 40px;
+
+    color: #75B79E;
+    }
+
+.PlanoFundo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.JogoPrincipal{
+    width: 700px;
+    margin-top: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}    
+
+.Card{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    height: 147px;
+    width: 117px;
+    background-color: #A7E9AF;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.CardExterno{
+    display: flex;
+    height: 100px;
+    width: 100px;
+
+}
+.CardInterno{
+    display: none;
+    height: 100px;
+    width: 100px;
+   
+}
+.Ligado{
+    display: flex;
+}
+.Desligado{
+    display: none;
+}
